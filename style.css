@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+table {
+    border-collapse: collapse;
+    margin: 100px;
+    box-shadow: 5px 5px 5px black;
+}
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.light {
+    background-color: #f5dab3;
+}
+.dark {
+    background-color: #be7a43;
+}
+.lastRow td {
+    height: 55px;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+    background-color: #a85920;
+}
+.firstRow td {
+    height: 60px;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+    background-color: #a85920;
+    
+}
+.labelCol {
+    width: 10px;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+    background-color: #a85920;
+}
+.chessBoard {
+    border: 5px solid #a85920;
+}
